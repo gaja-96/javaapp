@@ -1,8 +1,11 @@
-public class Main {
-  public static void main(String[] args) {
-    boolean isJavaFun = true;
-    boolean isFishTasty = false;    
-    System.out.println(isJavaFun);
-    System.out.println(isFishTasty);
-  }
-s
+public class MultiplicationTable {
+
+    public static void main(String[] args) {
+
+        int num = 5;
+        for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+    }
+}
